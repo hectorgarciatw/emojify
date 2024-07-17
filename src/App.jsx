@@ -1,12 +1,13 @@
 import { useState } from 'react';
 
 //Componentes
+import { Content } from './components/Content';
 import { Footer } from './components/Footer';
 
 function App() {
     return (
         <>
-            <h1>Emojify</h1>
+            <Content />
             <Footer />
         </>
     );
